@@ -20,7 +20,7 @@ export class TodoService {
 
   getTodos(): Observable<Todo[]> {
     return this.http.get<Todo[]>(this.todosUrl, {
-      params: new HttpParams().set('_limit', '5'),
+      params: new HttpParams().set('_limit', '10'),
     });
   }
 
