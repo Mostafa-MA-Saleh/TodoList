@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/TodoList",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
